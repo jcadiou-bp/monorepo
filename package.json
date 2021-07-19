@@ -1,0 +1,35 @@
+{
+  "name": "bp-monorepo",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "dev": "npm-run-all --parallel build:watch dev:watch",
+    "build:watch": "webpack --watch --mode=development",
+    "dev:watch": "lerna run dev",
+    "build": "webpack --mode=production",
+    "packages:version": "lerna version",
+    "packages:publish": "lerna publish",
+    "test": "lerna run test --since HEAD~1 -- --color --passWithNoTests",
+    "test:local": "lerna run test --since main -- --color --passWithNoTests"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-jest": "^24.3.6",
+    "eslint-plugin-node": "^11.1.0",
+    "jest": "^27.0.5",
+    "lerna": "^4.0.0",
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5",
+    "webpack": "^5.40.0",
+    "webpack-cli": "^4.7.2"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "version": "independent",
+  "packages": [
+    "packages/*"
+  ],
+  "stream": true,
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "registry": "https://npm.pkg.github.com",
+      "conventionalCommits": true,
+      "yes": true,
+      "ignoreChanges": [
+        "**/*.md",
+        "**/*.spec.js"
+      ]
+    },
+    "version": {
+      "allowBranch": "main",
+      "message": "chore(release): release",
+      "push": true
+    }
+  }
+}

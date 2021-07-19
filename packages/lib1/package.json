@@ -1,0 +1,19 @@
+{
+  "name": "@jcadiou-bp/lib1",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "src": "src/index.js",
+  "repository": "https://github.com/jcadiou-bp/monorepo",
+  "author": "Julien Cadiou <julien.cadiou@beautypie.com>",
+  "license": "MIT",
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "scripts": {
+    "dev": "nodemon dev/index.js",
+    "test": "jest"
+  }
+}
