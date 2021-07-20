@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/jcadiou-bp/monorepo/compare/@jcadiou-bp/new-lib1@0.1.2...@jcadiou-bp/new-lib1@0.2.0) (2021-07-20)
+
+
+### Features
+
+* **scope:** adding a new feature ([1ec0925](https://github.com/jcadiou-bp/monorepo/commit/1ec09258a6d96bb593db7363427024679b6fe725))
+
+
+
+
+
 ## [0.1.2](https://github.com/jcadiou-bp/monorepo/compare/@jcadiou-bp/new-lib1@0.1.1...@jcadiou-bp/new-lib1@0.1.2) (2021-07-20)
 
 
