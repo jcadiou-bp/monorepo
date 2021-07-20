@@ -1,6 +1,6 @@
 {
-  "name": "@jcadiou-bp/lib1",
-  "version": "0.0.1",
+  "name": "@jcadiou-bp/new-lib1",
+  "version": "0.0.0",
   "description": "",
   "main": "dist/index.js",
   "module": "dist/index.js",

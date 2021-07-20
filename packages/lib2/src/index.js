@@ -1,3 +1,3 @@
 module.exports = function () {
-    return `Lib2-v0`;
+    return `Lib2-v1`;
 };
